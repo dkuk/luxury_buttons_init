@@ -1,0 +1,651 @@
+.select-all {
+  background-image: url(../images/node_select_all.png);
+}
+
+.in_from_button {
+  margin: 0px;
+  padding: 3px 12px;
+}
+
+.preview_link_img {
+  background-image: url(../images/preview.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+  float: right;
+  margin-right: 10px;
+}
+
+.canceled-label {
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+  margin-top: -0.9em;
+  margin-right: 4px;
+  border: 1px solid #ccc;
+  padding: 2px 2px 2px 24px;
+  background-color: #fee;
+}
+
+.canceled-journal {
+  background-image: url(../images/undo_journal.png);
+}
+
+.canceled-detail {
+  background-color: #fee;
+}
+
+.rollback-detail {
+  background-color: #eef;
+}
+
+.wrapped_pre {
+  font-family: Arial;
+  font-size: 13px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+#lu_graph {
+  background: #333;
+  height: 550px;
+  width: 800px;
+}
+
+.lu_label {
+  width: 80px;
+  display: inline-block;
+}
+
+.H {
+  overflow: hidden;
+}
+
+.I {
+  display: none;
+}
+
+.L {
+  /*display: block;*/
+  float: left;
+}
+
+.R {
+  /*display: block;*/
+  float: right;
+}
+
+.m_5_0 {
+  margin: 5px 0px;
+}
+
+.lu_spacer {
+  padding: 9px;
+}
+
+.half_spacer {
+  padding: 5px;
+}
+
+.graph_area {
+  clear: left;
+}
+
+.lu_graph_frame {
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+.lu_panel {
+  border: 1px solid #CCC;
+  overflow: hidden;
+  /*border-radius: 2px;*/
+  background: #fefefe;
+  margin: 10px;
+}
+
+.lu_form_container {
+  position: absolute;
+  z-index: 1000;
+  left: 50%;
+  top: 45px;
+  margin-left: -450px;
+  min-width: 900px;
+  display: none;
+  border: none;
+  background: transparent;
+  padding: 10px;
+}
+
+.lu_overlay {
+  display: block;
+  background-color: rgb(43, 43, 43);
+  opacity: 0.85;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  display: none;
+}
+
+.lu_button_form {
+  overflow:hidden;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+}
+
+.lu_preview_area {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.option_block {
+  border: 1px solid #CCC;
+  overflow: hidden;
+  background: #fefefe;
+  margin: 10px 0px;
+}
+
+.action_block {
+  border: 1px solid #CCC;
+  overflow: hidden;
+  background: #fefefe;
+  margin: 10px 0px;
+  cursor: move;
+}
+
+.action_display {
+  border: 1px solid #CF9393;
+}
+
+.opal {
+  opacity: 0.55;
+}
+
+.action_form {
+  clear: left;
+}
+
+.button_action {
+  width: 200px;
+}
+
+.button_values {
+  width: 200px;
+}
+
+.button_action_form {
+  display: none;
+  border-top: 1px solid #D7D7D7;
+  padding: 0px 10px;
+  padding-bottom: 3px;
+  margin: 0px -3px 0px -3px;
+  background-color: #F6F6F6;  
+}
+
+.field_name {
+  /*width: 150px;*/
+  /*overflow: hidden;*/
+}
+
+.drag_handler {
+  background: #eee; 
+  overflow:hidden; 
+  margin: -27px -20px 0px -20px;
+  border-bottom: 1px solid #CCC;
+  height:25px;
+  cursor: move;
+}
+
+.form_closer {
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+  background-image: url(../images/close_cross.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-bottom: 2px;
+}
+
+.invert_part {
+  padding-left: 5px;
+}
+
+.right-fader{ background-image: url(../images/grad_24px.png); }
+
+.icon-invert, .icon-invert:visited, .icon-invert:link, .icon-invert:hover { background-image: url(../images/arrow_switch.png); }
+
+.icon-only, .icon-only:visited, .icon-only:link, .icon-only:hover {
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-left: 11px; 
+  text-decoration:none; 
+  border:0px; 
+}
+
+.icon-only-pick, .icon-only-pick:visited, .icon-only-pick:link, .icon-only-pick:hover {
+  background-position: 0% 45%;
+  background-repeat: no-repeat;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-left: 11px; 
+  text-decoration:none; 
+  border:0px; 
+}
+
+
+.icon-filter {
+  background-image: url(../images/search_green.png);
+}
+
+.icon-remove {
+  background-image: url(../images/remove.png);
+  padding-right: 5px;
+}
+
+.right-icon {
+  padding-right: 5px;
+}
+
+/* buttons style classes */
+.btn_container {
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.button_bar {
+  width: 100%;
+  padding: 0px;
+  margin-top: -2px;
+}
+
+a.lu_button {
+  display: block;
+  padding: 5px 7px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #F6F6F6;
+  /*font-size: 0px;*/
+}
+
+a.lu_button_main {
+  font-size: 12px;
+  margin-right: 7px;  
+}
+
+a.lu_button_fast {
+  font-size: 12px;
+  padding: 5px 4px;
+  border-left: 1px solid #ccc;
+  text-decoration: none;
+  cursor: pointer;
+  background-image: url(../images/fast_actions.png);
+  background-position: -2px 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+a.lu_button_fast:hover {
+  background-color: #E6FFCF;
+  background-position: -18px 50%;
+}
+
+.no_redirect > span.lu_button_main {
+  border-bottom: 1px dotted;
+}  
+
+.no_redirect:hover > span.lu_button_main {
+  border-bottom: 1px dotted;
+}
+
+.no_inputs > span.lu_button_main {
+  border-bottom: 1px solid;
+}  
+
+.no_inputs:hover > span.lu_button_main {
+  border-bottom: 1px solid;
+}
+
+a.local_link > span {
+/*  color: #005782;
+  border-bottom: 1px dotted #84BBD7;*/
+  color: #295200;
+  border-bottom: 1px dotted #93B96C;
+}  
+
+a.local_link:hover > span {
+/*  color: #288520;
+  border-bottom: 1px dotted #288520;*/
+  color: #147dc0;
+  border-bottom: 1px dotted #93B96C;
+}
+
+a.lu_button_locked {
+  border: 1px solid #CCC;
+  background-color: #F8DFDF;
+}
+
+/* ============== buttons styles ============== */
+
+a.btn_redo {
+  background-image: url(../images/redo.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_fav {
+  background-image: url(../images/fav.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_comment {
+  background-image: url(../images/comment.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_search {
+  background-image: url(../images/search_green.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_time {
+  background-image: url(../images/time.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_erase_title {
+  background-image: url(../images/clock.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_to_turn {
+  background-image: url(../images/queue.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_assign {
+  background-image: url(../images/hand_right.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_new {
+  background-image: url(../images/new.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_put_off {
+  background-image: url(../images/hand.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_lock {
+  background-image: url(../images/lock.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_check {
+  background-image: url(../images/check.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_clock {
+  background-image: url(../images/clock.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_clock_plus {
+  background-image: url(../images/clock_plus.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_pause {
+  background-image: url(../images/pause.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_to_check {
+  background-image: url(../images/to_check.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_work {
+  background-image: url(../images/work.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_percent {
+  background-image: url(../images/percent.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_complete {
+  background-image: url(../images/thumb_up.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_check {
+  background-image: url(../images/check.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_change_checker {
+  background-image: url(../images/users.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_in_work {
+  background-image: url(../images/in_work.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_user {
+  background-image: url(../images/user.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_speech {
+  background-image: url(../images/speech.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_answer {
+  background-image: url(../images/answer.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_change_schedule_time {
+  background-image: url(../images/change_schedule_time.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_checked {
+  background-image: url(../images/checked.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_claim_close {
+  background-image: url(../images/claim_close.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_close {
+  background-image: url(../images/close.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_error_conversation {
+  background-image: url(../images/error_conversation.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_executed {
+  background-image: url(../images/executed.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_get_info {
+  background-image: url(../images/get_info.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_in_production {
+  background-image: url(../images/in_production.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_in_queue {
+  background-image: url(../images/in_queue.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_on_check {
+  background-image: url(../images/on_check.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_proceed {
+  background-image: url(../images/proceed.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+  
+a.btn_return_back {
+  background-image: url(../images/return_back.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+  
+a.btn_return_to_author {
+  background-image: url(../images/return_to_author.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_brick {
+  background-image: url(../images/stop.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_stop_for_a_time {
+  background-image: url(../images/stop_for_a_time.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+} 
+
+a.btn_to_head {
+  background-image: url(../images/to_head.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_to_me {
+  background-image: url(../images/to_me.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_to_work {
+  background-image: url(../images/to_work.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_update_percent {
+  background-image: url(../images/update_percent.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
+
+a.btn_return_to_queue {
+  background-image: url(../images/return_to_queue.png);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+}
